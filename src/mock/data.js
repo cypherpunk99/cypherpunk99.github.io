@@ -93,7 +93,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'telegram',
-      url: 't.me/cypherpunk99',
+      url: 'https://t.me/cypherpunk99',
     },
   ],
 };
