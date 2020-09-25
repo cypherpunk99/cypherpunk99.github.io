@@ -10,8 +10,8 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Alexander Matveev',
+  subtitle: 'I am Full-stack Javascript developer',
   cta: '',
 };
 
@@ -68,22 +68,32 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/cypherpunk99',
     },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'codepen',
+    //   url: '',
+    // },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/alexander-matveev-749624171/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/cypherpunk99',
+    },
+    {
+      id: nanoid(),
+      name: 'youtube',
+      url: 'https://www.youtube.com/channel/UCPxHO-jQkozMNLFCaIp7rVA',
+    },
+    {
+      id: nanoid(),
+      name: 'telegram',
+      url: 't.me/cypherpunk99',
     },
   ],
 };

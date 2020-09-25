@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   border-bottom: 0px;
-  background: $white-color;
+  background: $dark-blue-text;
   font-weight: 400;
   color: $dark-blue-text;
   padding: 0rem 5.6rem;
@@ -30,7 +30,7 @@
     font-weight: 700;
     margin-bottom: 3.2rem;
     text-align: left;
-
+    color: $white-color;
     @include respond(tab-land) {
       font-size: 4rem;
     }
