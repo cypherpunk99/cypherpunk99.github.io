@@ -8,8 +8,8 @@ const Header = () => {
   const { footer } = useContext(PortfolioContext);
   const { networks } = footer;
 
-  const { hero } = useContext(PortfolioContext);
-  const { name, subtitle } = hero; // cta
+  // const { hero } = useContext(PortfolioContext);
+  // const { name, subtitle } = hero; // cta
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -29,9 +29,9 @@ const Header = () => {
       <Container>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
           <h1 className="hero-title">
-            <span className="text-color-main">{`Hi, my name is ${name}`}</span>
+            <span className="text-color-main">Hi, my name is Alexander Matveev</span>
             <br />
-            {subtitle}
+            I&aposm a full-stack developer
           </h1>
         </Fade>
         {/* <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px"> */}
