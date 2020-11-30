@@ -70,15 +70,15 @@ export const footerData = {
       name: 'twitter',
       url: 'https://twitter.com/cypherpunk99',
     },
-    // {
-    //   id: nanoid(),
-    //   name: 'codepen',
-    //   url: '',
-    // },
     {
       id: nanoid(),
       name: 'linkedin',
       url: 'https://www.linkedin.com/in/alexander-matveev-749624171/',
+    },
+    {
+      id: nanoid(),
+      name: 'indeed',
+      url: 'https://my.indeed.com/p/alexanderm-uaj13iz',
     },
     {
       id: nanoid(),
